@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image'
 import logoHome from '../../styles/assets/logos/logo_yard_sale.svg'
 import addCart from '../../styles/assets/icons/bt_add_to_cart.svg'
 import addedCart from '../../styles/assets/icons/bt_added_to_cart.svg'
@@ -12,30 +12,30 @@ import downMenu from '../../styles/assets/icons/down_menu.svg'
 
 
 const NavLogin = () => {
-  return(
-    <>
-      {/* <span>Sign in</span> */}
+	return(
+		<>
+			{/* <span>Sign in</span> */}
      
-        <p>
+			<p>
           rogerdavidalbaortega@gmail.com
 
-          <Image src={downMenu} alt='Arrow icon down'>
+				<Image src={downMenu} alt='Arrow icon down'>
 
-          </Image>
-        </p>
+				</Image>
+			</p>
       
-      <div>
-        <Image src={cartNotification} alt="Icon of cart notification">
+			<div>
+				<Image src={cartNotification} alt="Icon of cart notification">
 
-        </Image>
-        <p>
+				</Image>
+				<p>
           2
-        </p>
+				</p>
 
-      </div>
+			</div>
      
-    </>
-  )
+		</>
+	)
 }
 
-export { NavLogin };
+export { NavLogin }
