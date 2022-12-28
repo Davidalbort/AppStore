@@ -1,0 +1,77 @@
+@import 'color';
+
+.container {
+    display: flex;
+}
+
+.form {
+    margin: auto;
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+
+    &>fieldset {
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.1rem;
+        border: none;
+        margin-top: 2rem;
+
+        &>label {
+            font-size: 1.4rem;
+            font-weight: 700;
+            line-height: 1.75rem;
+        }
+
+        &>input {
+            background-color: $--test-input-field;
+            border: 1px solid $--test-input-field;
+            border-radius: 1rem;
+            font-size: 1.6rem;
+            font-weight: 400;
+            line-height: 2rem;
+            color: $--color-title-product;
+            padding: 1rem 1rem;
+        }
+
+
+    }
+
+    &>button {
+        width: 100%;
+        background-color: $--hospital-green;
+        border: 1px solid $--hospital-green;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.0001);
+        border-radius: 1rem;
+        padding: 1.8rem 0;
+        font-size: 1.7rem;
+        font-weight: 700;
+        text-align: center;
+        color: $--white;
+        margin-top: 4.2rem;
+         &:hover {
+            cursor: pointer;
+        }
+    }
+
+    & > .signup {
+        background-color: $--white;
+        border: 1px solid $--hospital-green;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.0001);
+        border-radius: 1rem;
+        padding: 1.8rem 0;
+        font-size: 1.7rem;
+        font-weight: 700;
+        text-align: center;
+        color: $--hospital-green;
+        margin-top: 6rem;
+    }
+
+    & > span {
+        font-size: 1.4rem;
+        font-weight: 500;
+        line-height: 1.8rem;
+        color: $--hospital-green;
+        margin: 3rem auto 0 auto;
+    }
+}
