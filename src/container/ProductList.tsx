@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import { ProductItem } from '../components/ProductItem'
 import { ProductsFromApi } from '../types/service'
-import styles from '../../styles/ProductList.module.scss'
+import styles from '../styles/ProductList.module.scss'
 import { Button } from '../components/Button'
 import { useEffect } from 'react'
 import { getProducts } from '../services/getProducts'

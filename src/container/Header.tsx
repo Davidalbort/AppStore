@@ -1,9 +1,9 @@
 import { Logo } from '../components/Logo'
 import { Navbar } from '../components/Navbar'
-import LogoSale from '../../styles/assets/logos/logo_yard_sale.svg'
-import menu from '../../styles/assets/icons/icon_menu.svg'
-import styles from '../../styles/Header.module.scss'
+import LogoSale from '../styles/assets/logos/logo_yard_sale.svg'
+import menu from '../styles/assets/icons/icon_menu.svg'
 import { ListCategories } from '../components/ListCategories'
+import styles from '../styles/Header.module.scss'
 
 
 const logo1 = {

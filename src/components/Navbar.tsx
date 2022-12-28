@@ -1,6 +1,6 @@
 
 import { NavLogin } from './NavLogin'
-import styles from '../../styles/Navbar.module.scss'
+import styles from '../styles/Navbar.module.scss'
 
 const Navbar = () => {
 	return(

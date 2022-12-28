@@ -1,8 +1,8 @@
 import { ListCategories } from '../components/ListCategories'
 import { Search } from '../components/Search'
-import downMenu from '../../styles/assets/icons/down_menu.svg'
+import downMenu from '../styles/assets/icons/down_menu.svg'
 import Image from 'next/image'
-import styles from '../../styles/SearchProduct.module.scss'
+import styles from '../styles/SearchProduct.module.scss'
 
 const SearchProduct = () => {
 	return(
